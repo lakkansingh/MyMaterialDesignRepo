@@ -12,6 +12,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        // need to commit on git
 
         // check if we're running on android 5.0 or higher
         if(Build.VERSION.SDK_INT>=Build.VERSION_CODES.LOLLIPOP){
