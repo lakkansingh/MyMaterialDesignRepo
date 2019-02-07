@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Its a child of supermaterial theme or its parent is SuperMaterial theme -->
+
+    <style name="AppMaterialTheme" parent="SuperMaterialTheme">
+        <!--Customize for only lollipop and above version features-->
+    </style>
+
+
+</resources>

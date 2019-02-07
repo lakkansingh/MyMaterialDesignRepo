@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include layout="@layout/toolbar"></include>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+
+        <Button
+            android:id="@+id/ripple_effect"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="showRippleAnimation"
+            android:text="Ripple Effect" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:padding="15dp">
+
+            <ImageView
+                android:id="@+id/logo_pic"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:onClick="sharedTransition"
+                android:padding="1dp"
+                android:transitionName="@string/logo_shared"
+                android:src="@drawable/save" />
+
+            <TextView
+                android:id="@+id/shared_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:onClick="sharedTransition"
+                android:layout_margin="2dp"
+                android:gravity="center"
+                android:transitionName="@string/lakhan_singh"
+                android:text="@string/lakhan_singh"
+                android:textSize="20sp" />
+
+            <ImageView
+                android:onClick="sharedTransition"
+                android:id="@+id/profile_pic"
+                android:transitionName="@string/profile_pic_shared"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:padding="1dp"
+                android:src="@drawable/ic_launcher" />
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>

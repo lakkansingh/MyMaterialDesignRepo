@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/save"
+        android:icon="@drawable/save"
+        android:orderInCategory="100"
+        android:title="Save"
+        app:showAsAction="never"></item>
+    <item
+        android:id="@+id/camera"
+        android:icon="@drawable/camera"
+        android:orderInCategory="100"
+        android:title="Camera"
+        app:showAsAction="never"></item>
+    <item
+        android:id="@+id/websearch"
+        android:icon="@drawable/web_search"
+        android:orderInCategory="100"
+        android:title="Web Search"
+        app:showAsAction="never"></item>
+    <item
+        android:id="@+id/settings"
+        android:icon="@drawable/settings"
+        android:orderInCategory="100"
+        android:title="Settings"
+        app:showAsAction="always"></item>
+    <item
+        android:id="@+id/help"
+        android:icon="@drawable/help"
+        android:orderInCategory="100"
+        android:title="Help"
+        app:showAsAction="never"></item>
+
+
+</menu>

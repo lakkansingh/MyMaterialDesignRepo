@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">MyMaterialDesign</string>
+    <string name="standalone_toolbar">Standalone ToolBar !</string>
+    <string name="camera">Camera</string>
+    <string name="settings">Settings</string>
+    <string name="help">Help</string>
+    <string name="websearch">Web Search</string>
+    <string name="save">Save</string>
+    <string name="simple_snackbar">Simple Snackbar</string>
+    <string name="logo_shared">Logo Shared</string>
+    <string name="lakhan_singh">Lakhan Singh</string>
+    <string name="profile_pic_shared">Profile Pic Shared</string>
+    <string name="exit">Exit</string>
+</resources>

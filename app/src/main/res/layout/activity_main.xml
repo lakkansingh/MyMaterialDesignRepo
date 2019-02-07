@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+
+    <Button
+        android:onClick="showStandaloneToolbar"
+        android:id="@+id/standaloneToolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Standalone Toolbar"
+        tools:layout_editor_absoluteX="148dp"
+        tools:layout_editor_absoluteY="28dp" />
+    <Button
+        android:onClick="showToolbarAsActionBar"
+        android:id="@+id/toolbarAsActionBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Toolbar As ActionBar"
+        tools:layout_editor_absoluteX="148dp"
+        tools:layout_editor_absoluteY="28dp" />
+
+    <Button
+        android:id="@+id/contextualMenu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Contextual Menu"
+        android:onClick="ShowContextualMenu"
+        tools:layout_editor_absoluteX="148dp"
+        tools:layout_editor_absoluteY="28dp" />
+    <Button
+        android:id="@+id/snackbar_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Snackbar"
+        android:onClick="showSnackbar"
+        tools:layout_editor_absoluteX="148dp"
+        tools:layout_editor_absoluteY="28dp" />
+    <Button
+        android:id="@+id/fab_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="FAB"
+        android:onClick="showFAB"
+        tools:layout_editor_absoluteX="148dp"
+        tools:layout_editor_absoluteY="28dp" />
+    <Button
+        android:id="@+id/animation_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Animation"
+        android:onClick="showAnimation"
+        tools:layout_editor_absoluteX="148dp"
+        tools:layout_editor_absoluteY="28dp" />
+
+
+
+
+
+
+</LinearLayout>
